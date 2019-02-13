@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "dev": "node server.js",
+    "build": "next build",
+    "start": "NODE_ENV=production node server.js",
+    "export": "npm run build && next export"
+  },
+  "dependencies": {
+    "next": "^8.0.1",
+    "react": "^16.8.1",
+    "react-dom": "^16.8.1",
+    "react-youtube": "^7.9.0"
+  }
+}
